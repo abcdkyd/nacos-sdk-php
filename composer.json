@@ -1,0 +1,31 @@
+{
+    "name": "abcdkyd/nacos-sdk-php",
+    "type": "library",
+    "license": "MIT",
+    "keywords": ["nacos","php"],
+    "homepage": "https://github.com/abcdkyd/nacos-sdk-php",
+    "authors": [
+        {
+            "name": "rick",
+            "email": "506512796@qq.com"
+        }
+    ],
+    "require": {
+        "php": ">=7.1.0",
+        "ext-json": "*",
+        "guzzlehttp/guzzle": "^6.3|^7.0"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "^7.5|^8.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "Nacos\\": "src"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "Tests\\": "tests/"
+        }
+    }
+}
